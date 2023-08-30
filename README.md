@@ -5,13 +5,16 @@ In this project we have create a circuit and implement it on hardhat using circu
 ## Circuit Code 
 ##NOT Gate template 
 template NOT() {
+   
     signal input in;
     signal output out;
 
     out <== 1 + in - 2*in;
 }
 ## AND gate template
+
 template AND() {
+   
     signal input a;
     signal input b;
     signal output out;
@@ -21,6 +24,7 @@ template AND() {
 ## OR Gate Template
 
 template OR() {
+  
     signal input a;
     signal input b;
     signal output out;
